@@ -1,0 +1,68 @@
+.bg-container{
+    background-color: #ffffff;
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    align-items: center;
+
+}
+.responsive-container{
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.heading{
+    font-size: 32px;
+    font-family: "Roboto";
+    color: #000000;
+}
+.loader-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    height: 90vh;
+}
+.failure-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.faliure-img{
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+.failure-heading{
+    color: #475569;
+    font-size: 26px;
+    font-family: "Roboto";
+    text-align: center;
+}
+.failure-text{
+    color: #64748b;
+    font-size: 18px;
+    font-family: "Roboto";
+    text-align: center;
+}
+.retry-btn{
+    background-color: #4656a1;
+    border: none;
+    border-radius: 8px;
+    height: 35px;
+    width: 75px;
+    font-family: "Roboto";
+    color: #ffffff;
+}
+.courses-list{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}

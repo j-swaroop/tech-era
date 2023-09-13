@@ -1,0 +1,32 @@
+.course{
+    margin-bottom: 60px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+.course-img{
+    width: 60px;
+}
+.course-name{
+    color: #000000;
+    font-size: 16px;
+    font-family: "Roboto";
+    margin-left: 15px;
+}
+@media (max-width: 576px){
+    .course{
+        width: 25%;
+        margin-right: 20px;
+    }
+    .course-img{
+        width: 40px;
+    }
+    .course-name{
+        margin-left: 5px;
+        font-size: 14px;
+    }
+}
